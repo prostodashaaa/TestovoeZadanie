@@ -1,0 +1,29 @@
+.metrics_item {
+  border-radius: var(--border-radius);
+  background-color: var(--status-green);
+
+  display: flex;
+  gap: 5px;
+  justify-content: space-between;
+
+  padding: 15px 10px;
+}
+
+.metrics_item_yellow {
+  background-color: var(--status-yellow);
+}
+
+.metrics_item__red {
+  background-color: var(--status-red);
+}
+
+.metrics_item__gray {
+  background-color: var(--status-gray);
+}
+
+.metrics_item__text,
+.metrics_item__status {
+  font-size: 16px;
+
+  color: var(--color-main);
+}

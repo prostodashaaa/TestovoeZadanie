@@ -1,0 +1,39 @@
+.status {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.status__color {
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+}
+
+.status__text {
+  font-size: 16px;
+}
+
+.unreachable {
+  background-color: var(--color-text);
+}
+
+.shutdown {
+  background-color: var(--status-gray);
+}
+
+.up {
+  background-color: var(--status-green);
+}
+
+.warning {
+  background-color: var(--status-yellow);
+}
+
+.critical {
+  background-color: var(--status-red);
+}
+
+.down {
+  background-color: var(--status-darkred);
+}

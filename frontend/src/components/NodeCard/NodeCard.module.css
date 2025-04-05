@@ -1,0 +1,30 @@
+.node_card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+
+  padding: 20px;
+  height: 300px;
+
+  box-shadow: var(--box-shadow);
+  border-radius: var(--border-radius);
+
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.node_card__title {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.node_card__metrics {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.node_card:hover {
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}

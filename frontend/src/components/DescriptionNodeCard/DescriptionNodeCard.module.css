@@ -1,0 +1,30 @@
+.description_node_card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  padding: 20px;
+  height: 300px;
+
+  box-shadow: var(--box-shadow);
+  border-radius: var(--border-radius);
+}
+
+.description_node_card_metric {
+  height: auto;
+}
+
+.description_node_card__item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card__item_title {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.card__item_text {
+  font-size: 16px;
+}

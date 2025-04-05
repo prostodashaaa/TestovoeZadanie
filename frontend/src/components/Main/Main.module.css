@@ -1,0 +1,17 @@
+.main {
+  display: grid;
+  grid-template-columns: repeat(3, 350px);
+  gap: 30px;
+}
+
+.not_succeeded {
+  height: 60vh;
+}
+
+.error {
+  font-size: 20px;
+  font-weight: 500;
+
+  align-self: center;
+  justify-self: center;
+}
