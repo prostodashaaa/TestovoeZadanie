@@ -1,4 +1,4 @@
-# 📊 Monitoring Dashboard
+# 📊 Мониторинг системы
 
 Полноценное веб-приложение для мониторинга инфраструктуры: отображает статус групп, нод, интерфейсов, метрик, администраторов и приложений. Интерфейс разбит на логические блоки с удобной фильтрацией и визуализацией данных.
 
@@ -24,7 +24,7 @@
 ![Обработка ошибки](./Figma/GroupsPanelError.png)
 
 Макеты интерфейса доступны в Figma: 
-[![Figma Design](https://img.shields.io/badge/Figma-Design-0AC97F?logo=figma&style=for-the-badge)](https://www.figma.com/design/U0BBikQZmHw8tN0hhZHmHU/Untitled?node-id=53-81&t=kdW5X9Cg9uhqRX9l-1)
+[![Figma Design](https://img.shields.io/badge/Figma-Design-0AC97F?logo=figma&style=for-the-badge)](https://www.figma.com/design/U0BBikQZmHw8tN0hhZHmHU/Untitled?node-id=0-1&t=kdW5X9Cg9uhqRX9l-1)
 
 ## Установка и запуск
 
@@ -34,7 +34,7 @@ cd backend
 npm install
 npm start
 
-
+## Frontend
 cd frontend
 npm install
 npm run dev
